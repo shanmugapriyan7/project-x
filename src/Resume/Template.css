@@ -1,0 +1,45 @@
+.c1-template43{
+    width: 450px;
+    height: 460px;
+}
+.c2-template43{
+    width: 450px;
+    height: 460px;
+}
+.grid-img1-template43 {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.grid-img2-template43 {
+    width: 400px;
+    height: 400px;
+    margin-left: 600px;
+    margin-top: -310px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+.grid-img1-template43:hover{
+    transform: scale(1.06);
+
+}
+
+.grid-img2-template43:hover{
+    transform: scale(1.06);
+
+}
+.grid1-template43{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+   
+}
+.grid2-template43{
+    margin-left: 1100px;
+    margin-top: 50px;
+    font-size: 20px;
+}

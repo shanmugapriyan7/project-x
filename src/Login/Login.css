@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hole43 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
+  margin: 0 auto;
+}
+
+.container43 {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 768px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: row; /* Adjusted */
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding-top: 35px;
+  margin-top: -65px;
+}
+
+.form-container43 {
+  width: 50%; /* Adjusted */
+  position: relative;
+}
+
+.signup-container43 {
+  z-index: 1;
+}
+
+.form43 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 50px;
+  text-align: center;
+  width: 100%; 
+  
+}
+
+.social-container43 {
+  margin: 20px 0;
+}
+
+.social-container43 a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin:-25px 4px;
+}
+
+/* Button style */
+.button43 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Input field style */
+.input1-43,
+.input2-43{
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input3-43 {
+  width: 90%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Error message style */
+.error-message {
+  font-size: 0.8rem;
+  color: red;
+  margin-top: 4px; /* Add some space between the input field and the error message */
+}
+
+.button43 {
+  margin-top: 10px;
+  background-color: rgb(221, 86, 255);
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button43:hover {
+  background-color: rgb(215, 57, 255);
+}
+
+.login-image43 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; /* Adjusted */
+  height: 90%;
+ 
+}
+
+.login-text43{
+  color:black;
+  font-size:20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+.header43 {
+  background-color: #333; /* Change background color as needed */
+  color: #fff; /* Change text color as needed */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-name43 {
+  font-size: 24px; /* Change font size as needed */
+  margin: 0;
+}
+
+.signup-button-header43 {
+  padding: 10px 20px;
+  background-color: #f44336; /* Change button color as needed */
+  color: #fff; /* Change text color as needed */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px; /* Change font size as needed */
+  cursor: pointer;
+}
+
+.signup-button-header43:hover {
+  background-color: #d32f2f; /* Change hover color as needed */
+}
+
+.forgotpassword-43{
+  text-decoration: none;
+}

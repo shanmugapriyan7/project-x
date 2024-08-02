@@ -1,0 +1,23 @@
+
+.Aheader1{
+    position:fixed;
+    top:0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(128, 128, 128, 0.252) 10px 10px 10px 10px;
+   background: linear-gradient(rgb(210, 210, 210),rgb(255, 255, 255));
+}
+.Homeheader1{
+    position:absolute;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(218, 213, 213, 0.221);
+}
+.Aheader1 span :hover{
+    color: beige;
+
+}
+.Hna {
+    background-color: rgba(255, 255, 255, 0);
+    color: purple;
+}

@@ -1,0 +1,156 @@
+resume5.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hole43-resume5 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 625px;
+    margin: 0 auto;
+}
+
+.container43-resume5 {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 898px;
+    min-height: 480px;
+    display: flex;
+    flex-direction: row; 
+    overflow: hidden;
+}
+
+.form-container43-resume5 {
+    width: 50%;
+    position: relative;
+}
+
+.form43-resume5 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.input1-43-resume5,
+.input2-43-resume5,
+.input3-43-resume5,
+.input4-43-resume5,
+.input5-43-resume5,
+.input6-43-resume5,
+.button43-resume5 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button43-resume5 {
+    margin-top: 15px;
+    background-color: rgb(221, 86, 255);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button43-resume5:hover {
+    background-color: rgb(215, 57, 255);
+}
+
+.login-image43-resume5 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 70%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.login-image43-resume5 h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.login-image43-resume5 p {
+    font-size: 16px;
+    color: #666;
+}
+
+.login-image43-resume5 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.login-image43-resume5 li {
+    font-size: 14px;
+    color: #888;
+}
+
+.login-text43-resume5 {
+    color: black;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.header43-resume5 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.website-name43-resume5 {
+    font-size: 24px; 
+    margin: 0;
+}
+
+.signup-button-header43-resume5 {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 70px;
+    font-size: 16px; 
+    cursor: pointer;
+    position: relative;
+}
+
+.signup-button-header43-resume5:hover::after {
+    content: ""; 
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999; 
+    white-space: pre-line; 
+}
+
+
+
+.signup-button-header43-resume5:hover {
+    background-color: #d32f2f; 
+}

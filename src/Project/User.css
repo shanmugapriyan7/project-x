@@ -1,0 +1,31 @@
+ ::-webkit-scrollbar{
+    width: 15px;
+    border-radius:15px;
+    background-color: rgb(175, 175, 236);
+    color: purple;
+}
+::-webkit-scrollbar-thumb{
+background-color: rgb(139, 139, 139);
+border-radius:15px;
+
+
+}
+.side12{
+    box-shadow: rgba(128, 128, 128, 0.485) 10px 10px 10px 10px;
+    background: linear-gradient(rgb(0, 0, 89),rgb(9, 24, 139));
+
+}
+.side12 button{
+background-color: rgba(255, 255, 255, 0);   
+   color: rgb(255, 255, 255);
+   font-size: 15px;
+   font-family: cursive;
+border-radius: 10px;
+}
+.side12 button:hover{
+background-color: rgba(112, 107, 144, 0.715);
+    color: rgb(255, 255, 255);
+}
+.userbody{
+    background: linear-gradient(rgba(166, 178, 181, 0.675) ,rgba(96, 149, 166, 0.549) ,rgba(255, 0, 255, 0.396));
+}

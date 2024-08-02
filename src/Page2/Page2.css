@@ -1,0 +1,66 @@
+
+/* Edit-Profile-62.css */
+
+/* Container Styles */
+
+.editprobody{
+  margin-top: -100px;
+  background: linear-gradient(to bottom, #eb03f3 60%, #ffffff 40%);
+
+}
+.Edit-Profile-page-container-62 {
+box-shadow: grey 10px 10px 10px 10px ;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+  }
+  .Edit-Profile-page-container-62 label{
+font-size: 20px;
+  color: rgb(185, 11, 185);
+  }
+
+  .Edit-Profile-page-container-62  input{
+    background-color:rgba(187, 183, 183, 0.319);
+  }
+  /* Heading Styles */
+  .Edit-Profile-heading-62 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(212, 8, 212);
+  }
+  
+  /* Label Styles */
+  .Edit-Profile-label-62 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  /* Input Styles */
+  .Edit-Profile-input-62 {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button Styles */
+  .Edit-Profile-button-62 {
+    background-color: #09015e;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Edit-Profile-button-62:hover {
+    background-color: #2980b9;
+  }

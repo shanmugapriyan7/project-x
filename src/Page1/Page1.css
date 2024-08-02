@@ -1,0 +1,50 @@
+
+/* Page1.css */
+
+
+.probody{
+  background: linear-gradient(to bottom, #eb03f3 60%, #ffffff 40%);
+}
+.page-container-62 {
+ box-shadow: #cac9c9c0 10px 10px 10px 10px;
+height: 450px;
+border-radius: 20px;
+background-color: #ffffff;
+margin-left: 450px;
+margin-right: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .page-container-62 img{
+    margin-top: -70px;
+  }
+  
+  .dp-container-62 {
+    margin-bottom: 20px;
+  }
+  
+  .dp-image-62 {
+    max-width: 150px; /* Set your preferred max width */
+    max-height: 150px; /* Set your preferred max height */
+    border-radius: 50%;
+  }
+  
+  
+  .username-62{
+    color: #d915b5;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .profile-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.edit-profile-button-62{
+  background-color: #007bff;
+  color: whitesmoke;
+}

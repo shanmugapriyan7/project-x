@@ -1,0 +1,369 @@
+.jheader{
+    height: 70px;
+    width: 1519px;
+top: 0;
+    background-color: rgb(255, 255, 255);
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   display: block;
+   position: fixed;
+}
+.nav1{
+  
+    list-style: none;
+    display: grid;
+    grid-template-columns: 250px 45px 30px 30px 40px 350px 80px 20px;
+    column-gap: 50px;
+margin-left: 150px;
+
+
+
+}
+.na{
+color: rgb(141, 0, 141);
+border: none;
+font-weight: bold;
+font-size: 16px;
+background-color: rgb(255, 255, 255);
+height: 35px;
+width: 90px;
+}
+
+
+.action .profile {
+ 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.action .profile img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+.action .menu::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 34px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+
+.action .menu {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  padding: 20px 20px;
+  background: #fff;
+  width: 200px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+ 
+}
+
+.action .menu.active {
+  top: 80px;
+  visibility: visible;
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+
+
+.action .menu h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+  font-weight: 500;
+  color: #555;
+ 
+}
+
+.action .menu h3 span {
+  font-size: 14px;
+  color: #cecece;
+  font-weight: 300;
+}
+
+.action .menu ul li {
+  list-style: none;
+padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.action .menu ul li img {
+  max-width: 20px;
+  margin-right: 10px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+  opacity: 1;
+}
+
+.action .menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+  color: #ff5d94;
+}
+
+.jsearch{
+    height: 700px;
+    margin-top: 50px;
+    width:1519px;
+    background-color: #aa1f1f;
+    background-image: url('../Images/image.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 106, 0.544);
+    background-size: 1519px;
+}
+.shh{
+  margin-left: 70px;
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+}
+.shh2{
+  font-size: 60px;
+  color: white;
+  margin-left: 70px;
+  font-weight: bolder;
+}
+.st{
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 70px;
+}
+.jsea{
+    margin-top: 40px;
+ margin-left: 30px;
+}
+
+.sin{
+    display: grid;
+   
+    grid-template-columns: 200px 300px 300px 300px 200px;
+    list-style: none;
+}
+.jsearchinput{
+    height: 65px;
+    width: 400px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+}
+.jsb{
+   
+    height: 60px;
+    width: 150px;
+    margin-top: 4px;
+    margin-left: -50px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgba(22, 7, 115, 0.908);
+    color: white;
+    font-size: medium;
+    border: none;
+}
+.jfil ul{
+  display: flex;
+list-style: none;
+margin-left: 80px;
+}
+.filb{
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 99, 0.589);
+  color: white;
+  border: none;
+  border-radius: 5px 5px 5px 5px ;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.jsho{
+  margin-left: 70px;
+  margin-top: 8px;
+
+}
+.jsel{
+  background-color: rgba(73, 0, 138, 0.807);
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px ;
+  color: white;
+ font-weight: bold;
+ border: none;
+margin-left: 600px;
+box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.425);
+
+cursor: pointer;
+}
+.jsel1{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px ;
+  color: white;
+  background-color: rgba(73, 0, 138, 0.807);
+margin-left: 12px;
+ font-weight: bold;
+ border: none;
+ cursor: pointer;
+ box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.425);
+}
+.jcontent{
+    height: fit-content;
+    width: 1519px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -30px;
+   
+
+}
+.grid-container {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    column-gap: 50px;
+    row-gap: 70px;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  .grid-item:hover{
+    border-color: aquamarine;
+    transform: scale(1.05);
+    transition: 0.2s;
+
+  }
+  .grid-item {
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px 20px 20px 20px ;
+box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.685);
+  }
+  .grid-item img{
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px 40px 40px 40px ;
+  }
+  .gi{
+    font-size: 25px;
+   margin-top: -70px;
+   margin-left: 280px;
+   width: fit-content;
+   height: fit-content;
+   cursor: pointer;
+  }
+  
+  .ct1{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .ct2{
+    margin-left: 30px;
+margin-top: 10px;
+  }
+  .cbt1{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: rgb(116, 156, 244);
+    color: white;
+    margin-left: 30px;
+  }
+  .cbt2{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(84, 80, 80);
+    margin-left: 10px;
+  }
+  .cbt3{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: rgb(84, 80, 80);
+
+    margin-left: 10px;
+  }
+  .deadline{
+    margin-left: 30px;
+  }
+  .nextp3{
+    border: none;
+background-color: rgb(255, 255, 255);
+font-size: 18px;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+border-radius: 25px 25px 25px 25px ;
+  }
+  .nextp1{
+    border: none;
+    background-color: rgba(129, 171, 250, 0.74);
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+border-radius: 25px 25px 25px 25px ;
+  }
+  .nextp2{
+    background-color: white;
+
+        border: none;
+
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+border-radius: 25px 25px 25px 25px ;
+  }
+  .nextp1:hover{
+    background-color: rgba(5, 5, 158, 0.96);
+    color: white;
+  }
+  .nextp2:hover{
+    background-color: rgba(5, 5, 158, 0.96);
+    color: white;
+  }
+  .nextp3:hover{
+    background-color: rgba(5, 5, 158, 0.96);
+    color: white;
+  }
+.jfooter{
+  margin-top: -20px;
+    height: 350px;
+    width:1519px;
+    background-color: #010955;
+}

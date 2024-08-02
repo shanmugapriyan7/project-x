@@ -1,0 +1,175 @@
+.iheader1 {
+    height: 90px;
+    width: 1519px;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: block;
+    position: fixed;
+}
+
+.inav1 {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 250px 45px 30px 30px 40px 350px 50px 100px;
+    column-gap: 50px;
+    margin-left: 150px;
+}
+
+.ina {
+    color: rgb(141, 0, 141);
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 90px;
+}
+
+.isearch {
+    height: 55px;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 120px;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.isb {
+    height: 40px;
+    width: 150px;
+    margin-top: 4px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(22, 7, 115, 0.908);
+    color: white;
+    font-size: medium;
+    border: none;
+}
+
+.iad {
+    color: white;
+    font-weight: bold;
+    margin-top: -12px;
+    font-size: 25px;
+}
+
+.isi {
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px 200px;
+    list-style: none;
+}
+
+.isearchinput {
+    height: 45px;
+    width: 450px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+}
+
+.ifilter1 {
+    background-color: white;
+    margin-top: 50px;
+    width: 1519px;
+    height: 800px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ifooter {
+    height: 400px;
+    background-color: rgba(29, 0, 116, 0.855);
+    width: 1519px;
+}
+
+.iwarning {
+    background-color: rgb(230, 216, 139);
+    height: 60px;
+}
+
+.ilb1 {
+    background-color: rgb(222, 39, 222);
+    border: none;
+    color: white;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ilb2 {
+    background-color: white;
+    border: 2px solid black;
+    border-color: purple;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ic1 {
+    background-color: rgb(253, 253, 253);
+    width: 250px;
+    height: 260px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(135, 134, 134, 0.329);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ic1:hover {
+    transform: scale(1.2);
+}
+
+.igridc {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.icategory {
+    margin-left: 50px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    display: grid;
+    gap: 50px 100px;
+}
+
+.icatb {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 2px solid black;
+    border-color: rgb(50, 0, 132);
+    border-radius: 10px 10px 10px 10px;
+    align-items: center;
+    display: flex;
+    color: rgb(50, 0, 132);
+    font-size: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(141, 137, 137, 0.412);
+}
+
+.icatb:hover {
+    transform: scale(1.2);
+}
+
+ .ipc {
+    color: rgba(153, 1, 146, 0.979);
+}
+
+.ift {
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.igi {
+    width: 240px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 5px;
+}
+
+.igridf {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(155, 5, 155);
+    font-variant: small-caps;
+    font-weight: bold;
+}

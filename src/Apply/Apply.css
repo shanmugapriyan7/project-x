@@ -1,0 +1,31 @@
+.Apply{
+    
+    visibility: hidden;
+    position: absolute;
+margin-top: -400px;
+}
+.Apply.job{
+    visibility: visible;
+    transition: 1s;
+    position: fixed;
+    margin-top: 40px;
+    background-color: rgba(55, 54, 54, 0.423);
+
+}
+.Apply2{
+    background-color: rgb(255, 255, 255);
+}
+.Apply2.job2{
+    transition: 1s;
+    margin-top: 100px;
+   
+}
+.Apply-btn{
+    background-color: rgb(182, 0, 238);
+    color: white;
+    border: none;
+}
+
+.Apply h1{
+    color: rgba(255, 0, 0, 0.733);
+}

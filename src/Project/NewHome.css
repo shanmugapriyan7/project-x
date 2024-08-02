@@ -1,0 +1,24 @@
+.NhArticle{
+    background: linear-gradient(to right bottom,rgb(226, 91, 226) ,rgb(22, 22, 238) ,rgb(255, 0, 255));
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.Nhpng{
+    background-image: url("../Images/slider.png");
+}
+.NhTop{
+    background: linear-gradient(to right bottom,rgb(226, 91, 226) ,rgb(22, 22, 238) ,rgb(255, 0, 255));
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.Nhjobcat{
+ background: linear-gradient(to right bottom,rgb(226, 91, 226) ,rgb(22, 22, 238) ,rgb(255, 0, 255));
+ border-top-left-radius: 40px;
+ border-top-right-radius: 40px;
+ border-bottom-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+
+}
+.Nhpng1{
+    background-image: url("../Images/slider.png");
+}

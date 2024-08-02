@@ -1,0 +1,91 @@
+.Spa{
+    border-radius: 20px;
+}
+.Sbo{
+    background: linear-gradient(rgba(149, 226, 5, 0.095),white);
+    height: 695px;
+    width: 1536px;
+    background-image:url("../Images/200.webp") ;
+}
+
+
+.Sdiv2{
+    background-color:rgba(254, 254, 254, 0.984);
+
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+  margin-left: 800px;
+    width: 500px;
+    height:500px ;
+   margin-top: -400px;
+   box-shadow: 6px 6px 6px 6px rgba(183, 180, 180, 0.282);
+}
+.Sskctlogo{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.Slogo{
+    margin-left: 300px;
+}
+.Sbtn1{
+    background-color: rgb(216, 0, 245);
+    color: white;
+    border-radius: 30px;
+    margin-left: 90px;
+    padding:8px;
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+
+.Sdiv1{
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+    margin-left: 200px;
+    width: 600px;
+    height:400px ;
+
+}
+.Stech{
+    border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   box-shadow: 6px 6px 6px 6px rgba(183, 180, 180, 0.282);
+
+}
+.Swel{
+    font-size: 30px;
+    font-weight: 200;
+   font-family: segoe ui rgb(234, 0, 255);
+   margin-left: 145px;
+   margin-top: 100px;
+   color: purple;
+}
+.Spls{
+    margin-left: 160px;
+    color: purple;
+    margin-top: 100px;
+    padding:9px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.Sin1{
+  margin-left: 90px;
+  padding:13px;
+  width: 300px;
+  border-radius: 10px;
+background-color: rgba(211, 182, 213, 0.823);
+border: none;
+}
+
+.Slo{
+    font-size: 17px;
+   
+}
+.Sbtn2{
+    border: none;
+    background-color:rgba(248, 246, 246, 0);
+color: rgb(221, 42, 234);
+margin-left: 140px;
+
+}
